@@ -1,11 +1,11 @@
 {
   "name": "gulp-newer",
-  "version": "1.4.0",
+  "version": "2.0.0",
   "description": "Only pass through newer source files",
-  "homepage": "https://github.com/tschaub/gulp-newer",
+  "homepage": "https://github.com/your-username/gulp-newer",
   "author": {
-    "name": "Tim Schaub",
-    "url": "http://tschaub.net/"
+    "name": "Your Name",
+    "url": "https://github.com/your-username"
   },
   "keywords": [
     "gulp",
@@ -15,10 +15,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/tschaub/gulp-newer.git"
+    "url": "git://github.com/your-username/gulp-newer.git"
   },
   "bugs": {
-    "url": "https://github.com/tschaub/gulp-newer/issues"
+    "url": "https://github.com/your-username/gulp-newer/issues"
   },
   "license": "MIT",
   "main": "index.js",
@@ -28,18 +28,18 @@
     "test": "mocha spec.js"
   },
   "devDependencies": {
-    "chai": "^4.1.2",
-    "eslint": "^4.14.0",
-    "eslint-config-tschaub": "^10.0.0",
-    "gulp": "^3.9.1",
-    "mocha": "^4.1.0",
-    "mock-fs": "^4.4.2",
-    "vinyl": "^2.1.0"
+    "chai": "^4.3.7",
+    "eslint": "^8.56.0",
+    "eslint-config-tschaub": "^12.0.0",
+    "gulp": "^4.0.2",
+    "mocha": "^10.2.0",
+    "mock-fs": "^5.1.2",
+    "vinyl": "^2.2.0"
   },
   "dependencies": {
-    "glob": "^7.0.3",
+    "glob": "^9.3.5",
     "kew": "^0.7.0",
-    "plugin-error": "^0.1.2"
+    "plugin-error": "^2.0.1"
   },
   "eslintConfig": {
     "extends": "tschaub"
